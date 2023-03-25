@@ -102,7 +102,7 @@ jobs:
         uses: docker/metadata-action@v4
         with:
           images: |
-            jgibbarduk/grav
+            ghcr.io/jgibbarduk/docker-grav
           tags: |
             type=raw,value=${{ matrix.tag }}
             type=raw,value=${{ matrix.tag }}-${{ env.GRAV_VERSION }}
@@ -165,7 +165,7 @@ jobs:
         uses: docker/metadata-action@v4
         with:
           images: |
-            jgibbarduk/grav
+            ghcr.io/jgibbarduk/docker-grav
           tags: |
             type=raw,value=${{ matrix.tag }}
             type=raw,value=${{ matrix.tag }}-${{ env.GRAV_VERSION }}
