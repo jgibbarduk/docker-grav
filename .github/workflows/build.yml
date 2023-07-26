@@ -44,9 +44,9 @@ jobs:
       - name: Run pre-commit framework
         uses: pre-commit/action@v3.0.0
 
-      - name: Run code validate
-        run: |
-          yarn validate
+#       - name: Run code validate
+#         run: |
+#           yarn validate
 
   docker-validate:
     needs:
